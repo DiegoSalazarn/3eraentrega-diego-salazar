@@ -1,0 +1,54 @@
+
+ul{
+
+    color: blue;
+    background-color: black;
+    display: flex;
+    flex-flow: column;
+
+}
+
+ul li{
+
+    color: red;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap-reverse;
+
+}
+
+
+/*SCSS hoja de estilo*/
+h1.title{
+    font: normal 24px/1.5 "Open Sans", sans-serif;
+    /*USO DE LA VARIABLE*/
+    color: red
+}
+
+div.container {
+    color: red;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 2px 1px 0 rgba(0 , 0 , 0 , 0.2);
+}
+
+
+    /*INDEX*/
+
+
+.boton {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+
+
+
+
+.boton--aceptar {
+}
