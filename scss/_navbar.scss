@@ -1,0 +1,24 @@
+            /*NAVBAR GENERAL*/
+
+/*buscador del navbar*/
+.buscador-navbar{
+    display: flex;
+    justify-content: right;
+}
+    /*Separacion de "inicio|articulos|etc.."*/
+.navbar-nav li{
+    margin-left: 50px;
+}
+    /*Para centrar más las cosas del navbar*/
+#navbarNav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-nav{
+    margin: auto;
+}
+
+.navbar-collapse{
+    justify-content: space-between;
+}

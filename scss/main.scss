@@ -1,89 +1,9 @@
-/*SCSS. Es igual que CSS, solo que se ve y se usa mas organizadamente, tanto en la lectura como en los comandos*/
+//reset
+@import "./config/reset";
+@import "./config/vars";
+@import "./config/mixin";
 
-
-
-/*Ejemplo*/
-
-
-.ul{
-
-    color: blue;
-    background-color: black;
-    display: flex;
-    flex-flow: column;
-    
-                    li{
-                        color: red;
-                        background-color: aqua;
-                        display: flex;
-                        flex-wrap: wrap-reverse;
-
-                        }
-}
-
-
-
-/*VARIABLES*/
-$title-font: normal 24px/1.5 'Open Sans', sans-serif;
-$cool-red: red;
-$box-shadow-bottom-only: 0 2px 1px 0 rgba(0 , 0 , 0 , 0.2);
-
-/*SCSS hoja de estilo*/
-h1.title{
-    font: $title-font;
-    /*USO DE LA VARIABLE*/
-    color: $cool-red;
-}
-
-div.container {
-    color: $cool-red;
-    background: #fff;
-    width: 100%;
-    box-shadow: $box-shadow-bottom-only;
-}
-
-
-/*INDEX*/
-
-.boton {
-    width: 200px;
-    height: 50px;
-    background-color: white;
-    text-align: center;
-    color: black;
-    border-radius: 20px;
-    border: 1px solid black;
-}
-
-
-
-
-
-.boton--aceptar {
-    @extend .boton;
-    background-color: green;
-    color: yellow;
-}
-
-.boton--cancelar {
-    @extend .boton;
-    background-color: red;
-    color: yellow;
-}
-
-        /*Uso del mixin*/
-
-@mixin sizes ($width, $height){
-    width: $width;
-    height: $height;
-}
-            /*Se llama a Include y luego sizes y pones en los parentecis el width que quieras. se reutiliza porque estas usando SCSS*/
-
-        /*Izquierda width y derecha height*/
-.box{
-    @include sizes(500px, 50px)
-}
-
-.componente {
-    @include sizes(45px, 50px)
-}
+//Layout - Estructura HTML
+@import "./navbar";
+@import "./carrousel";
+@import "./cabeza";

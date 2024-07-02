@@ -1,0 +1,88 @@
+@charset "UTF-8";
+* {
+  font-family: "Lora", serif;
+}
+
+/*NAVBAR GENERAL*/
+
+/*buscador del navbar*/
+.buscador-navbar {
+  display: flex;
+  justify-content: right;
+}
+
+/*Separacion de "inicio|articulos|etc.."*/
+.navbar-nav li {
+  margin-left: 50px;
+}
+
+/*Para centrar más las cosas del navbar*/
+#navbarNav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.navbar-collapse {
+  justify-content: space-between;
+}
+
+/*CARROUSEL*/
+.carousel-inicio img {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  margin: 1px;
+  margin-top: 10px;
+  padding: 20px 20px 20px 20px;
+  width: auto;
+}
+
+.carousel-control-next {
+  background-color: darkgrey;
+  margin-right: 17px;
+  margin-bottom: 22px;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.carousel-control-prev {
+  background-color: darkgray;
+  margin-right: 15px;
+  margin-bottom: 22px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+/*TODO EL INDEX HASTA AVISAR CAMBIO DE PAGINA*/
+
+/*Primer titulo h1 index*/
+.titulo-index h1 {
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  color: black;
+  margin-top: 5px;
+  padding: 0%;
+}
+
+/*Segundo titulo h2 index*/
+.second-title {
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px 10px 10px;
+  padding: 5px 5px 30px 5px;
+  color: black;
+}
+
+/*Color de los botones de las 3 cards del intex*/
+.btn-primary {
+  background-color: brown;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
