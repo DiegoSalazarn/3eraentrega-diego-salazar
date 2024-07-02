@@ -1,0 +1,21 @@
+//navbar
+
+.buscador-navbar{
+    display: flex;
+    justify-content: right;
+}
+.navbar-nav li{
+    margin-left: 50px;
+}
+#navbarNav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-nav{
+    margin: auto;
+}
+
+.navbar-collapse{
+    justify-content: space-between;
+}
