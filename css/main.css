@@ -4,7 +4,6 @@
 }
 
 /*NAVBAR GENERAL*/
-
 /*buscador del navbar*/
 .buscador-navbar {
   display: flex;
@@ -58,7 +57,6 @@
 }
 
 /*TODO EL INDEX HASTA AVISAR CAMBIO DE PAGINA*/
-
 /*Primer titulo h1 index*/
 .titulo-index h1 {
   background-color: brown;
@@ -70,6 +68,14 @@
   padding: 0%;
 }
 
+/*PAGE - Quienes Somos*/
+.qs_title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
 /*Segundo titulo h2 index*/
 .second-title {
   display: flex;
@@ -79,10 +85,143 @@
   color: black;
 }
 
-/*Color de los botones de las 3 cards del intex*/
+/*Color de los botones de las 3 cards del index*/
 .btn-primary {
   background-color: brown;
   margin-top: 10px;
+}
+
+/*PAGE - ARTICULOS*/
+.title-article h1 {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: tomato;
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.article-secondTitle h2 {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: tomato;
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.article-thirdTitle {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: tomato;
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+/*Cards de articles*/
+.card-articulos {
+  max-width: 300px;
+  margin: auto;
+}
+
+.card-articulos img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/*PAGE - CONTACTO*/
+.container-formulario input {
+  background-color: #a9a9a9;
+}
+
+.primary-titleForm h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  background-color: #800000;
+  color: white;
+  margin-top: 20px;
+}
+
+.email-container {
+  padding-top: 20px;
+  margin-right: 15px;
+}
+
+.form-select {
+  background-color: dodgerblue;
+}
+
+.box-text textarea {
+  background-color: #a9a9a9;
+}
+
+.box-text label {
+  display: flex;
+  padding: 3px;
+}
+
+/*PAGE DE QUIENES SOMOS*/
+.respuestas {
+  background-color: cadetblue;
+  padding-left: 6px;
+  padding-bottom: auto;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.qs_secondTitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.description_qs {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+  display: flex;
+  text-align: center;
+}
+
+.description_qs p {
+  margin-bottom: 1.5em;
+  margin-right: 4px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.description_qs_dos {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-top: 20px;
+  background-color: rgb(13, 196, 13);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+/*FOOTRE GENERAL (para todas las pages)*/
+.logo-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+}
+
+footer {
+  background-color: #2f4f4f;
+  margin-top: 20px;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
