@@ -31,9 +31,21 @@
   justify-content: right;
 }
 
+/*IMG DEL LOGO DE NAVBAR*/
+.logo-navbar {
+  transition: transform 0.2s ease;
+}
+.logo-navbar:hover {
+  transform: scale(1.1);
+}
+
 /*Separacion de "inicio|articulos|etc.."*/
 .navbar-nav li {
   margin-left: 50px;
+  transition: transform 0.2s ease;
+}
+.navbar-nav li:hover {
+  transform: scale(1.1);
 }
 
 /*Para centrar más las cosas del navbar*/
@@ -105,6 +117,14 @@
   color: black;
 }
 
+/*3cards de el index*/
+.cards-index {
+  transition: transform 0.2s ease;
+}
+.cards-index:hover {
+  transform: scale(1.1);
+}
+
 /*Color de los botones de las 3 cards del index*/
 .btn-primary {
   background-color: brown;
@@ -143,6 +163,10 @@
 .card-articulos {
   max-width: 300px;
   margin: auto;
+  transition: transform 0.2s ease;
+}
+.card-articulos:hover {
+  transform: scale(1.1);
 }
 
 .card-articulos img {
@@ -202,6 +226,22 @@
   justify-content: center;
   margin-bottom: 20px;
   margin-top: 10px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+}
+.image-container img {
+  width: 350px;
+  height: auto;
+  margin: 0 10px;
+  border-style: groove;
+  border-color: greenyellow;
+  transition: transform 0.2s ease;
+}
+.image-container img:hover {
+  transform: scale(1.1);
 }
 
 .description_qs {

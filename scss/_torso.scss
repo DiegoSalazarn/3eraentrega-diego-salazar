@@ -7,6 +7,16 @@
         color: black;
     }
     
+    /*3cards de el index*/
+
+    .cards-index{
+        transition: transform 0.2s ease;
+    
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
     /*Color de los botones de las 3 cards del index*/
     
     .btn-primary{
@@ -48,11 +58,17 @@
 .card-articulos{
     max-width: 300px;
     margin: auto;
+    transition: transform 0.2s ease;
+    
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 
 .card-articulos img{
     height: 200px;
     object-fit: cover;
+    
 }
 
 /*PAGE - CONTACTO*/
@@ -111,6 +127,28 @@
     justify-content: center;
     margin-bottom: 20px;
     margin-top: 10px;
+}
+
+// Estilo para el contenedor de las imágenes
+.image-container {
+    display: flex; // flexbox para alinear horizontalmente
+    justify-content: space-around; // Distribuye el espacio alrededor de las imágenes
+  
+    // Estilo para cada imagen dentro del contenedor
+    img {
+      width: 350px; // Ancho de cada imagen
+      height: auto; // Altura automática para mantener la proporción
+      margin: 0 10px; // Espacio entre las imágenes
+      border-style: groove; 
+      border-color: greenyellow;
+      transition: transform 0.2s ease; // Transición suave para el efecto de zoom
+        
+      // Efecto de zoom al pasar el cursor por encima
+
+    &:hover {
+        transform: scale(1.1);
+    }
+  }
 }
 
 .description_qs{

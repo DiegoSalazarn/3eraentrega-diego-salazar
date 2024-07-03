@@ -5,9 +5,23 @@
     display: flex;
     justify-content: right;
 }
-    /*Separacion de "inicio|articulos|etc.."*/
+    /*IMG DEL LOGO DE NAVBAR*/
+.logo-navbar{
+    transition: transform 0.2s ease;
+    
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+/*Separacion de "inicio|articulos|etc.."*/
 .navbar-nav li{
     margin-left: 50px;
+    transition: transform 0.2s ease;
+    
+    &:hover {
+        transform: scale(1.1);
+    }
 }
     /*Para centrar más las cosas del navbar*/
 #navbarNav{
