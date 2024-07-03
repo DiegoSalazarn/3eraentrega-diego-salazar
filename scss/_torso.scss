@@ -46,7 +46,7 @@
     margin-bottom: 20px;
     margin-top: 10px;
 }
-        /*Cards de articles*/
+        /*Cards de articulos*/
         
 .card-articulos{
     max-width: 300px;
@@ -93,16 +93,22 @@
     padding: 3px;
 }
 
-        /*PAGE DE QUIENES SOMOS*/
+        /*PAGE DE FAQS*/
+
+.pregunta-faqs{
+    background-color: cadetblue;
+    color: black;
+}
 
 .respuestas{
-    background-color: cadetblue;
     padding-left: 6px;
     padding-bottom: auto;
     margin-bottom: 10px;
     color: black;
 }
 
+        /*PAGE DE QUIENES SOMOS*/
+        
 .qs_secondTitle{
     display: flex;
     justify-content: center;
