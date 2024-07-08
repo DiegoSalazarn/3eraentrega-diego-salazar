@@ -238,10 +238,21 @@
   margin: 0 10px;
   border-style: groove;
   border-color: greenyellow;
-  transition: transform 0.2s ease;
 }
-.image-container img:hover {
-  transform: scale(1.1);
+
+@keyframes spin-once {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.image {
+  width: 200px;
+  height: 200px;
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  animation: spin-once 1s forwards;
 }
 
 .description_qs {

@@ -140,16 +140,26 @@
       height: auto; // Altura automática para mantener la proporción
       margin: 0 10px; // Espacio entre las imágenes
       border-style: groove; 
-      border-color: greenyellow;
-      transition: transform 0.2s ease; // Transición suave para el efecto de zoom
-        
-      // Efecto de zoom al pasar el cursor por encima
-
-    &:hover {
-        transform: scale(1.1);
-    }
+      border-color: greenyellow;    
   }
 }
+
+@keyframes spin-once {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s ease;
+  }
+  
+  .image:hover {
+    animation: spin-once 1s forwards;
+  }
+
 
 .description_qs{
     font-family: "Ubuntu", sans-serif;;
