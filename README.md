@@ -1,4 +1,4 @@
-//CREADOR: DIEGO SALAZAR - Curso de Coderhouse.
+# //CREADOR: DIEGO SALAZAR - Curso de Coderhouse.
 
 
 El proyecto consiste en una tienda de ropa virtual.
