@@ -211,12 +211,13 @@
 .pregunta-faqs {
   background-color: cadetblue;
   color: black;
+  margin: 0px;
 }
 
-.respuestas {
+.respuestas p {
   padding-left: 6px;
   padding-bottom: auto;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: black;
 }
 
